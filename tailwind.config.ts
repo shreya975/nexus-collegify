@@ -18,9 +18,17 @@ export default {
         serif: ['Playfair Display', 'serif'],
       },
       colors: {
-        rose: {
-          gold: 'hsl(340, 75%, 70%)',
-          'gold-dark': 'hsl(340, 65%, 55%)',
+        sapphire: {
+          DEFAULT: 'hsl(231, 63%, 30%)',
+          light: 'hsl(231, 63%, 40%)',
+        },
+        gold: {
+          DEFAULT: 'hsl(41, 56%, 64%)',
+          dark: 'hsl(41, 56%, 54%)',
+        },
+        indigo: {
+          cool: 'hsl(233, 62%, 57%)',
+          sky: 'hsl(226, 100%, 76%)',
         },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
